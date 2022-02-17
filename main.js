@@ -47,4 +47,8 @@ const margin = document.querySelector('h1').style.margin = 'auto'
 const border = document.querySelector('h1').style.borderRadius = '50px'
 const alinear = document.querySelector('h1').style.textAlign = 'center'
 
+//---Export metodos
 
+module.export = {
+    area, perimetro
+}
